@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="HWViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tmv-vT-XMH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tni-Lr-9cP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Principal: $" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YL-4K-iB6">
+                                <rect key="frame" x="9" y="28" width="105" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="105" id="FRL-Az-dvy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Interest: %" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vl-RV-0ry">
+                                <rect key="frame" x="9" y="66" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IIr-gl-FMF">
+                                <rect key="frame" x="156" y="28" width="144" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="jpn-tj-zgx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="textFieldReturn:" destination="2" eventType="editingDidEndOnExit" id="EYR-zb-H0e"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bxf-Ef-FCf">
+                                <rect key="frame" x="156" y="66" width="144" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="textFieldReturn:" destination="2" eventType="editingDidEndOnExit" id="Ybe-AY-k6j"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="When will you be a millionaire?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYL-52-DtZ">
+                                <rect key="frame" x="40" y="115" width="260" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="NTT-hz-2Ra"/>
+                                    <constraint firstAttribute="height" constant="33" id="o8e-qS-NA9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SX8-nz-TTm">
+                                <rect key="frame" x="124" y="163" width="73" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="WWD-FL-Kh5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedCalculate:" destination="2" eventType="touchUpInside" id="glm-eO-TDe"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="piggybank.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U3f-aK-7sF">
+                                <rect key="frame" x="0.0" y="312" width="320" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="AEl-oh-fUT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SX8-nz-TTm" firstAttribute="centerX" secondItem="U3f-aK-7sF" secondAttribute="centerX" id="56g-Kn-YGZ"/>
+                            <constraint firstAttribute="trailing" secondItem="IIr-gl-FMF" secondAttribute="trailing" constant="20" symbolic="YES" id="76G-E6-VBq"/>
+                            <constraint firstItem="7YL-4K-iB6" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="9" id="ANh-Lx-faX"/>
+                            <constraint firstItem="8vl-RV-0ry" firstAttribute="top" secondItem="Bxf-Ef-FCf" secondAttribute="top" id="AoJ-Wa-nKf"/>
+                            <constraint firstItem="bYL-52-DtZ" firstAttribute="top" secondItem="3" secondAttribute="top" constant="115" id="GsF-2g-o3A"/>
+                            <constraint firstAttribute="trailing" secondItem="bYL-52-DtZ" secondAttribute="trailing" constant="20" symbolic="YES" id="HrW-vP-Hka"/>
+                            <constraint firstItem="U3f-aK-7sF" firstAttribute="top" secondItem="3" secondAttribute="top" constant="312" id="Lce-yA-D3L"/>
+                            <constraint firstAttribute="trailing" secondItem="Bxf-Ef-FCf" secondAttribute="trailing" constant="20" symbolic="YES" id="Mj5-rW-Gj8"/>
+                            <constraint firstItem="8vl-RV-0ry" firstAttribute="trailing" secondItem="7YL-4K-iB6" secondAttribute="trailing" id="Nff-et-CSZ"/>
+                            <constraint firstItem="IIr-gl-FMF" firstAttribute="top" secondItem="7YL-4K-iB6" secondAttribute="top" id="XfQ-Rt-ztV"/>
+                            <constraint firstItem="8vl-RV-0ry" firstAttribute="leading" secondItem="7YL-4K-iB6" secondAttribute="leading" id="eyw-Gt-gpK"/>
+                            <constraint firstItem="Bxf-Ef-FCf" firstAttribute="top" secondItem="IIr-gl-FMF" secondAttribute="bottom" constant="8" symbolic="YES" id="fkc-fu-XKV"/>
+                            <constraint firstItem="U3f-aK-7sF" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="g4A-Hs-qYA"/>
+                            <constraint firstItem="Bxf-Ef-FCf" firstAttribute="leading" secondItem="IIr-gl-FMF" secondAttribute="leading" id="hWg-t9-s7Z"/>
+                            <constraint firstItem="SX8-nz-TTm" firstAttribute="top" secondItem="3" secondAttribute="top" constant="163" id="rFY-RO-x8W"/>
+                            <constraint firstItem="7YL-4K-iB6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="28" id="w5T-sy-Sdl"/>
+                            <constraint firstItem="U3f-aK-7sF" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="zHI-tW-nkP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblMessage" destination="bYL-52-DtZ" id="1Fj-LQ-S3W"/>
+                        <outlet property="txtInterest" destination="Bxf-Ef-FCf" id="TY7-c5-XkE"/>
+                        <outlet property="txtPrincipal" destination="IIr-gl-FMF" id="rvH-RB-h5e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="piggybank.jpg" width="284" height="178"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0537C85419B6AE6900E3B2BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537C85319B6AE6900E3B2BF /* UIKit.framework */; };
+		0537C85619B6AE6900E3B2BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537C85519B6AE6900E3B2BF /* Foundation.framework */; };
+		0537C85819B6AE6900E3B2BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0537C85719B6AE6900E3B2BF /* CoreGraphics.framework */; };
+		0537C85E19B6AE6900E3B2BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0537C85C19B6AE6900E3B2BF /* InfoPlist.strings */; };
+		0537C86019B6AE6900E3B2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0537C85F19B6AE6900E3B2BF /* main.m */; };
+		0537C86419B6AE6900E3B2BF /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0537C86319B6AE6900E3B2BF /* CardGameAppDelegate.m */; };
+		0537C86619B6AE6900E3B2BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0537C86519B6AE6900E3B2BF /* Default.png */; };
+		0537C86819B6AE6900E3B2BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0537C86719B6AE6900E3B2BF /* Default@2x.png */; };
+		0537C86A19B6AE6900E3B2BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0537C86919B6AE6900E3B2BF /* Default-568h@2x.png */; };
+		0537C86D19B6AE6900E3B2BF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0537C86B19B6AE6900E3B2BF /* MainStoryboard.storyboard */; };
+		0537C87019B6AE6900E3B2BF /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0537C86F19B6AE6900E3B2BF /* CardGameViewController.m */; };
+		0552C99D19F0CC7C00D78753 /* CardBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0552C99C19F0CC7C00D78753 /* CardBack.jpg */; };
+		05C6FAE419F1548C000F2361 /* CardFront.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05C6FAE319F1548C000F2361 /* CardFront.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0537C85019B6AE6900E3B2BF /* MatchCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0537C85319B6AE6900E3B2BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0537C85519B6AE6900E3B2BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0537C85719B6AE6900E3B2BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0537C85B19B6AE6900E3B2BF /* MatchCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchCard-Info.plist"; sourceTree = "<group>"; };
+		0537C85D19B6AE6900E3B2BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0537C85F19B6AE6900E3B2BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0537C86119B6AE6900E3B2BF /* MatchCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatchCard-Prefix.pch"; sourceTree = "<group>"; };
+		0537C86219B6AE6900E3B2BF /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
+		0537C86319B6AE6900E3B2BF /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
+		0537C86519B6AE6900E3B2BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0537C86719B6AE6900E3B2BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0537C86919B6AE6900E3B2BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0537C86C19B6AE6900E3B2BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0537C86E19B6AE6900E3B2BF /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		0537C86F19B6AE6900E3B2BF /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
+		0552C99C19F0CC7C00D78753 /* CardBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CardBack.jpg; sourceTree = "<group>"; };
+		05C6FAE319F1548C000F2361 /* CardFront.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CardFront.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0537C84D19B6AE6900E3B2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537C85419B6AE6900E3B2BF /* UIKit.framework in Frameworks */,
+				0537C85619B6AE6900E3B2BF /* Foundation.framework in Frameworks */,
+				0537C85819B6AE6900E3B2BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0537C84719B6AE6900E3B2BF = {
+			isa = PBXGroup;
+			children = (
+				0537C85919B6AE6900E3B2BF /* MatchCard */,
+				0537C85219B6AE6900E3B2BF /* Frameworks */,
+				0537C85119B6AE6900E3B2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0537C85119B6AE6900E3B2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0537C85019B6AE6900E3B2BF /* MatchCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0537C85219B6AE6900E3B2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0537C85319B6AE6900E3B2BF /* UIKit.framework */,
+				0537C85519B6AE6900E3B2BF /* Foundation.framework */,
+				0537C85719B6AE6900E3B2BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0537C85919B6AE6900E3B2BF /* MatchCard */ = {
+			isa = PBXGroup;
+			children = (
+				0537C86B19B6AE6900E3B2BF /* MainStoryboard.storyboard */,
+				0537C86E19B6AE6900E3B2BF /* CardGameViewController.h */,
+				0537C86F19B6AE6900E3B2BF /* CardGameViewController.m */,
+				0537C85A19B6AE6900E3B2BF /* Supporting Files */,
+			);
+			path = MatchCard;
+			sourceTree = "<group>";
+		};
+		0537C85A19B6AE6900E3B2BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C6FAE319F1548C000F2361 /* CardFront.jpg */,
+				0537C86319B6AE6900E3B2BF /* CardGameAppDelegate.m */,
+				0537C86219B6AE6900E3B2BF /* CardGameAppDelegate.h */,
+				0537C85B19B6AE6900E3B2BF /* MatchCard-Info.plist */,
+				0537C85C19B6AE6900E3B2BF /* InfoPlist.strings */,
+				0537C85F19B6AE6900E3B2BF /* main.m */,
+				0537C86119B6AE6900E3B2BF /* MatchCard-Prefix.pch */,
+				0537C86519B6AE6900E3B2BF /* Default.png */,
+				0552C99C19F0CC7C00D78753 /* CardBack.jpg */,
+				0537C86719B6AE6900E3B2BF /* Default@2x.png */,
+				0537C86919B6AE6900E3B2BF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0537C84F19B6AE6900E3B2BF /* MatchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0537C87319B6AE6900E3B2BF /* Build configuration list for PBXNativeTarget "MatchCard" */;
+			buildPhases = (
+				0537C84C19B6AE6900E3B2BF /* Sources */,
+				0537C84D19B6AE6900E3B2BF /* Frameworks */,
+				0537C84E19B6AE6900E3B2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchCard;
+			productName = MatchCard;
+			productReference = 0537C85019B6AE6900E3B2BF /* MatchCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0537C84819B6AE6900E3B2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CardGame;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = MCCNH;
+			};
+			buildConfigurationList = 0537C84B19B6AE6900E3B2BF /* Build configuration list for PBXProject "MatchCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0537C84719B6AE6900E3B2BF;
+			productRefGroup = 0537C85119B6AE6900E3B2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0537C84F19B6AE6900E3B2BF /* MatchCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0537C84E19B6AE6900E3B2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537C85E19B6AE6900E3B2BF /* InfoPlist.strings in Resources */,
+				0537C86619B6AE6900E3B2BF /* Default.png in Resources */,
+				0537C86819B6AE6900E3B2BF /* Default@2x.png in Resources */,
+				0537C86A19B6AE6900E3B2BF /* Default-568h@2x.png in Resources */,
+				0537C86D19B6AE6900E3B2BF /* MainStoryboard.storyboard in Resources */,
+				0552C99D19F0CC7C00D78753 /* CardBack.jpg in Resources */,
+				05C6FAE419F1548C000F2361 /* CardFront.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0537C84C19B6AE6900E3B2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0537C86019B6AE6900E3B2BF /* main.m in Sources */,
+				0537C86419B6AE6900E3B2BF /* CardGameAppDelegate.m in Sources */,
+				0537C87019B6AE6900E3B2BF /* CardGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0537C85C19B6AE6900E3B2BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0537C85D19B6AE6900E3B2BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0537C86B19B6AE6900E3B2BF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0537C86C19B6AE6900E3B2BF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0537C87119B6AE6900E3B2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0537C87219B6AE6900E3B2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0537C87419B6AE6900E3B2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatchCard/MatchCard-Prefix.pch";
+				INFOPLIST_FILE = "MatchCard/MatchCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0537C87519B6AE6900E3B2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatchCard/MatchCard-Prefix.pch";
+				INFOPLIST_FILE = "MatchCard/MatchCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0537C84B19B6AE6900E3B2BF /* Build configuration list for PBXProject "MatchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537C87119B6AE6900E3B2BF /* Debug */,
+				0537C87219B6AE6900E3B2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0537C87319B6AE6900E3B2BF /* Build configuration list for PBXNativeTarget "MatchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0537C87419B6AE6900E3B2BF /* Debug */,
+				0537C87519B6AE6900E3B2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0537C84819B6AE6900E3B2BF /* Project object */;
+}
